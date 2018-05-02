@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FAFF33B2099AB1C00F76665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF33A2099AB1C00F76665 /* AppDelegate.m */; };
+		0FAFF33E2099AB1C00F76665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF33D2099AB1C00F76665 /* ViewController.m */; };
+		0FAFF3412099AB1C00F76665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAFF33F2099AB1C00F76665 /* Main.storyboard */; };
+		0FAFF3442099AB1C00F76665 /* YicePicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3422099AB1C00F76665 /* YicePicker.xcdatamodeld */; };
+		0FAFF3462099AB1C00F76665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FAFF3452099AB1C00F76665 /* Assets.xcassets */; };
+		0FAFF3492099AB1C00F76665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAFF3472099AB1C00F76665 /* LaunchScreen.storyboard */; };
+		0FAFF34C2099AB1C00F76665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF34B2099AB1C00F76665 /* main.m */; };
+		0FAFF3562099AB1D00F76665 /* YicePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3552099AB1D00F76665 /* YicePickerTests.m */; };
+		0FAFF3612099AB1D00F76665 /* YicePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3602099AB1D00F76665 /* YicePickerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FAFF3522099AB1D00F76665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FAFF32E2099AB1C00F76665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FAFF3352099AB1C00F76665;
+			remoteInfo = YicePicker;
+		};
+		0FAFF35D2099AB1D00F76665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0FAFF32E2099AB1C00F76665 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0FAFF3352099AB1C00F76665;
+			remoteInfo = YicePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FAFF3362099AB1C00F76665 /* YicePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YicePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FAFF3392099AB1C00F76665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0FAFF33A2099AB1C00F76665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0FAFF33C2099AB1C00F76665 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0FAFF33D2099AB1C00F76665 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0FAFF3402099AB1C00F76665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FAFF3432099AB1C00F76665 /* YicePicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YicePicker.xcdatamodel; sourceTree = "<group>"; };
+		0FAFF3452099AB1C00F76665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FAFF3482099AB1C00F76665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FAFF34A2099AB1C00F76665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FAFF34B2099AB1C00F76665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0FAFF3512099AB1D00F76665 /* YicePickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YicePickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FAFF3552099AB1D00F76665 /* YicePickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YicePickerTests.m; sourceTree = "<group>"; };
+		0FAFF3572099AB1D00F76665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FAFF35C2099AB1D00F76665 /* YicePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YicePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FAFF3602099AB1D00F76665 /* YicePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YicePickerUITests.m; sourceTree = "<group>"; };
+		0FAFF3622099AB1D00F76665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FAFF3332099AB1C00F76665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FAFF34E2099AB1D00F76665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FAFF3592099AB1D00F76665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FAFF32D2099AB1C00F76665 = {
+			isa = PBXGroup;
+			children = (
+				0FAFF3382099AB1C00F76665 /* YicePicker */,
+				0FAFF3542099AB1D00F76665 /* YicePickerTests */,
+				0FAFF35F2099AB1D00F76665 /* YicePickerUITests */,
+				0FAFF3372099AB1C00F76665 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0FAFF3372099AB1C00F76665 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFF3362099AB1C00F76665 /* YicePicker.app */,
+				0FAFF3512099AB1D00F76665 /* YicePickerTests.xctest */,
+				0FAFF35C2099AB1D00F76665 /* YicePickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FAFF3382099AB1C00F76665 /* YicePicker */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFF3392099AB1C00F76665 /* AppDelegate.h */,
+				0FAFF33A2099AB1C00F76665 /* AppDelegate.m */,
+				0FAFF33C2099AB1C00F76665 /* ViewController.h */,
+				0FAFF33D2099AB1C00F76665 /* ViewController.m */,
+				0FAFF33F2099AB1C00F76665 /* Main.storyboard */,
+				0FAFF3452099AB1C00F76665 /* Assets.xcassets */,
+				0FAFF3472099AB1C00F76665 /* LaunchScreen.storyboard */,
+				0FAFF34A2099AB1C00F76665 /* Info.plist */,
+				0FAFF34B2099AB1C00F76665 /* main.m */,
+				0FAFF3422099AB1C00F76665 /* YicePicker.xcdatamodeld */,
+			);
+			path = YicePicker;
+			sourceTree = "<group>";
+		};
+		0FAFF3542099AB1D00F76665 /* YicePickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFF3552099AB1D00F76665 /* YicePickerTests.m */,
+				0FAFF3572099AB1D00F76665 /* Info.plist */,
+			);
+			path = YicePickerTests;
+			sourceTree = "<group>";
+		};
+		0FAFF35F2099AB1D00F76665 /* YicePickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFF3602099AB1D00F76665 /* YicePickerUITests.m */,
+				0FAFF3622099AB1D00F76665 /* Info.plist */,
+			);
+			path = YicePickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FAFF3352099AB1C00F76665 /* YicePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FAFF3652099AB1D00F76665 /* Build configuration list for PBXNativeTarget "YicePicker" */;
+			buildPhases = (
+				0FAFF3322099AB1C00F76665 /* Sources */,
+				0FAFF3332099AB1C00F76665 /* Frameworks */,
+				0FAFF3342099AB1C00F76665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YicePicker;
+			productName = YicePicker;
+			productReference = 0FAFF3362099AB1C00F76665 /* YicePicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0FAFF3502099AB1D00F76665 /* YicePickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FAFF3682099AB1D00F76665 /* Build configuration list for PBXNativeTarget "YicePickerTests" */;
+			buildPhases = (
+				0FAFF34D2099AB1D00F76665 /* Sources */,
+				0FAFF34E2099AB1D00F76665 /* Frameworks */,
+				0FAFF34F2099AB1D00F76665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FAFF3532099AB1D00F76665 /* PBXTargetDependency */,
+			);
+			name = YicePickerTests;
+			productName = YicePickerTests;
+			productReference = 0FAFF3512099AB1D00F76665 /* YicePickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0FAFF35B2099AB1D00F76665 /* YicePickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FAFF36B2099AB1D00F76665 /* Build configuration list for PBXNativeTarget "YicePickerUITests" */;
+			buildPhases = (
+				0FAFF3582099AB1D00F76665 /* Sources */,
+				0FAFF3592099AB1D00F76665 /* Frameworks */,
+				0FAFF35A2099AB1D00F76665 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FAFF35E2099AB1D00F76665 /* PBXTargetDependency */,
+			);
+			name = YicePickerUITests;
+			productName = YicePickerUITests;
+			productReference = 0FAFF35C2099AB1D00F76665 /* YicePickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FAFF32E2099AB1C00F76665 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "音冰冰";
+				TargetAttributes = {
+					0FAFF3352099AB1C00F76665 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					0FAFF3502099AB1D00F76665 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0FAFF3352099AB1C00F76665;
+					};
+					0FAFF35B2099AB1D00F76665 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0FAFF3352099AB1C00F76665;
+					};
+				};
+			};
+			buildConfigurationList = 0FAFF3312099AB1C00F76665 /* Build configuration list for PBXProject "YicePicker" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FAFF32D2099AB1C00F76665;
+			productRefGroup = 0FAFF3372099AB1C00F76665 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FAFF3352099AB1C00F76665 /* YicePicker */,
+				0FAFF3502099AB1D00F76665 /* YicePickerTests */,
+				0FAFF35B2099AB1D00F76665 /* YicePickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FAFF3342099AB1C00F76665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAFF3492099AB1C00F76665 /* LaunchScreen.storyboard in Resources */,
+				0FAFF3462099AB1C00F76665 /* Assets.xcassets in Resources */,
+				0FAFF3412099AB1C00F76665 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FAFF34F2099AB1D00F76665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FAFF35A2099AB1D00F76665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FAFF3322099AB1C00F76665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAFF33E2099AB1C00F76665 /* ViewController.m in Sources */,
+				0FAFF3442099AB1C00F76665 /* YicePicker.xcdatamodeld in Sources */,
+				0FAFF34C2099AB1C00F76665 /* main.m in Sources */,
+				0FAFF33B2099AB1C00F76665 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FAFF34D2099AB1D00F76665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAFF3562099AB1D00F76665 /* YicePickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0FAFF3582099AB1D00F76665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FAFF3612099AB1D00F76665 /* YicePickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FAFF3532099AB1D00F76665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FAFF3352099AB1C00F76665 /* YicePicker */;
+			targetProxy = 0FAFF3522099AB1D00F76665 /* PBXContainerItemProxy */;
+		};
+		0FAFF35E2099AB1D00F76665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0FAFF3352099AB1C00F76665 /* YicePicker */;
+			targetProxy = 0FAFF35D2099AB1D00F76665 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0FAFF33F2099AB1C00F76665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FAFF3402099AB1C00F76665 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FAFF3472099AB1C00F76665 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FAFF3482099AB1C00F76665 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FAFF3632099AB1D00F76665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0FAFF3642099AB1D00F76665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FAFF3662099AB1D00F76665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXR2RV82M2;
+				INFOPLIST_FILE = YicePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ice.www.YicePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0FAFF3672099AB1D00F76665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXR2RV82M2;
+				INFOPLIST_FILE = YicePicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ice.www.YicePicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0FAFF3692099AB1D00F76665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXR2RV82M2;
+				INFOPLIST_FILE = YicePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ice.www.YicePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YicePicker.app/YicePicker";
+			};
+			name = Debug;
+		};
+		0FAFF36A2099AB1D00F76665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXR2RV82M2;
+				INFOPLIST_FILE = YicePickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ice.www.YicePickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YicePicker.app/YicePicker";
+			};
+			name = Release;
+		};
+		0FAFF36C2099AB1D00F76665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXR2RV82M2;
+				INFOPLIST_FILE = YicePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ice.www.YicePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YicePicker;
+			};
+			name = Debug;
+		};
+		0FAFF36D2099AB1D00F76665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FXR2RV82M2;
+				INFOPLIST_FILE = YicePickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ice.www.YicePickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YicePicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FAFF3312099AB1C00F76665 /* Build configuration list for PBXProject "YicePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FAFF3632099AB1D00F76665 /* Debug */,
+				0FAFF3642099AB1D00F76665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FAFF3652099AB1D00F76665 /* Build configuration list for PBXNativeTarget "YicePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FAFF3662099AB1D00F76665 /* Debug */,
+				0FAFF3672099AB1D00F76665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FAFF3682099AB1D00F76665 /* Build configuration list for PBXNativeTarget "YicePickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FAFF3692099AB1D00F76665 /* Debug */,
+				0FAFF36A2099AB1D00F76665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FAFF36B2099AB1D00F76665 /* Build configuration list for PBXNativeTarget "YicePickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FAFF36C2099AB1D00F76665 /* Debug */,
+				0FAFF36D2099AB1D00F76665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0FAFF3422099AB1C00F76665 /* YicePicker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0FAFF3432099AB1C00F76665 /* YicePicker.xcdatamodel */,
+			);
+			currentVersion = 0FAFF3432099AB1C00F76665 /* YicePicker.xcdatamodel */;
+			path = YicePicker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0FAFF32E2099AB1C00F76665 /* Project object */;
+}
