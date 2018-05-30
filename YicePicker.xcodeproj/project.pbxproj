@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0FAFF33B2099AB1C00F76665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF33A2099AB1C00F76665 /* AppDelegate.m */; };
-		0FAFF33E2099AB1C00F76665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF33D2099AB1C00F76665 /* ViewController.m */; };
 		0FAFF3412099AB1C00F76665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAFF33F2099AB1C00F76665 /* Main.storyboard */; };
 		0FAFF3442099AB1C00F76665 /* YicePicker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3422099AB1C00F76665 /* YicePicker.xcdatamodeld */; };
 		0FAFF3462099AB1C00F76665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FAFF3452099AB1C00F76665 /* Assets.xcassets */; };
@@ -16,6 +15,23 @@
 		0FAFF34C2099AB1C00F76665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF34B2099AB1C00F76665 /* main.m */; };
 		0FAFF3562099AB1D00F76665 /* YicePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3552099AB1D00F76665 /* YicePickerTests.m */; };
 		0FAFF3612099AB1D00F76665 /* YicePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3602099AB1D00F76665 /* YicePickerUITests.m */; };
+		0FAFF3702099AB4900F76665 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF36F2099AB4900F76665 /* MainViewController.m */; };
+		0FAFF3742099ADC700F76665 /* YicePickerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3732099ADC700F76665 /* YicePickerMenu.m */; };
+		0FAFF3772099B80800F76665 /* YicePickerMenuPch.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3762099B80800F76665 /* YicePickerMenuPch.m */; };
+		0FAFF37A2099C35B00F76665 /* YicePickerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3792099C35B00F76665 /* YicePickerCell.m */; };
+		0FAFF398209AE94D00F76665 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF380209AE94D00F76665 /* MASCompositeConstraint.m */; };
+		0FAFF399209AE94D00F76665 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF383209AE94D00F76665 /* MASConstraint.m */; };
+		0FAFF39A209AE94D00F76665 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF385209AE94D00F76665 /* MASConstraintMaker.m */; };
+		0FAFF39B209AE94D00F76665 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF387209AE94D00F76665 /* MASLayoutConstraint.m */; };
+		0FAFF39C209AE94D00F76665 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF38B209AE94D00F76665 /* MASViewAttribute.m */; };
+		0FAFF39D209AE94D00F76665 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF38D209AE94D00F76665 /* MASViewConstraint.m */; };
+		0FAFF39E209AE94D00F76665 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF38F209AE94D00F76665 /* NSArray+MASAdditions.m */; };
+		0FAFF39F209AE94D00F76665 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF392209AE94D00F76665 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		0FAFF3A0209AE94D00F76665 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF394209AE94D00F76665 /* View+MASAdditions.m */; };
+		0FAFF3A1209AE94D00F76665 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF397209AE94D00F76665 /* ViewController+MASAdditions.m */; };
+		0FAFF3A4209AEA0600F76665 /* NSString+AdjustSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3A3209AEA0600F76665 /* NSString+AdjustSize.m */; };
+		0FAFF3A7209BF7FF00F76665 /* YicePickerCollectionViewFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FAFF3A6209BF7FF00F76665 /* YicePickerCollectionViewFlowLayout.m */; };
+		0FFCDC6D20BEA313006A7AF5 /* YiceTestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFCDC6C20BEA313006A7AF5 /* YiceTestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +55,6 @@
 		0FAFF3362099AB1C00F76665 /* YicePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YicePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAFF3392099AB1C00F76665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0FAFF33A2099AB1C00F76665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0FAFF33C2099AB1C00F76665 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0FAFF33D2099AB1C00F76665 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0FAFF3402099AB1C00F76665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FAFF3432099AB1C00F76665 /* YicePicker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YicePicker.xcdatamodel; sourceTree = "<group>"; };
 		0FAFF3452099AB1C00F76665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +67,45 @@
 		0FAFF35C2099AB1D00F76665 /* YicePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YicePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAFF3602099AB1D00F76665 /* YicePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YicePickerUITests.m; sourceTree = "<group>"; };
 		0FAFF3622099AB1D00F76665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FAFF36E2099AB4900F76665 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0FAFF36F2099AB4900F76665 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0FAFF3722099ADC700F76665 /* YicePickerMenu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YicePickerMenu.h; sourceTree = "<group>"; };
+		0FAFF3732099ADC700F76665 /* YicePickerMenu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YicePickerMenu.m; sourceTree = "<group>"; };
+		0FAFF3752099B80800F76665 /* YicePickerMenuPch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YicePickerMenuPch.h; sourceTree = "<group>"; };
+		0FAFF3762099B80800F76665 /* YicePickerMenuPch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YicePickerMenuPch.m; sourceTree = "<group>"; };
+		0FAFF3782099C35B00F76665 /* YicePickerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YicePickerCell.h; sourceTree = "<group>"; };
+		0FAFF3792099C35B00F76665 /* YicePickerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YicePickerCell.m; sourceTree = "<group>"; };
+		0FAFF37F209AE94D00F76665 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		0FAFF380209AE94D00F76665 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		0FAFF381209AE94D00F76665 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		0FAFF382209AE94D00F76665 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		0FAFF383209AE94D00F76665 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		0FAFF384209AE94D00F76665 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		0FAFF385209AE94D00F76665 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		0FAFF386209AE94D00F76665 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		0FAFF387209AE94D00F76665 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		0FAFF388209AE94D00F76665 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		0FAFF389209AE94D00F76665 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		0FAFF38A209AE94D00F76665 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		0FAFF38B209AE94D00F76665 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		0FAFF38C209AE94D00F76665 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		0FAFF38D209AE94D00F76665 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		0FAFF38E209AE94D00F76665 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		0FAFF38F209AE94D00F76665 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		0FAFF390209AE94D00F76665 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0FAFF391209AE94D00F76665 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		0FAFF392209AE94D00F76665 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		0FAFF393209AE94D00F76665 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		0FAFF394209AE94D00F76665 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		0FAFF395209AE94D00F76665 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		0FAFF396209AE94D00F76665 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		0FAFF397209AE94D00F76665 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0FAFF3A2209AEA0600F76665 /* NSString+AdjustSize.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+AdjustSize.h"; sourceTree = "<group>"; };
+		0FAFF3A3209AEA0600F76665 /* NSString+AdjustSize.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+AdjustSize.m"; sourceTree = "<group>"; };
+		0FAFF3A5209BF7FF00F76665 /* YicePickerCollectionViewFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YicePickerCollectionViewFlowLayout.h; sourceTree = "<group>"; };
+		0FAFF3A6209BF7FF00F76665 /* YicePickerCollectionViewFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YicePickerCollectionViewFlowLayout.m; sourceTree = "<group>"; };
+		0FFCDC6B20BEA313006A7AF5 /* YiceTestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YiceTestModel.h; sourceTree = "<group>"; };
+		0FFCDC6C20BEA313006A7AF5 /* YiceTestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YiceTestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +156,12 @@
 		0FAFF3382099AB1C00F76665 /* YicePicker */ = {
 			isa = PBXGroup;
 			children = (
+				0FAFF37E209AE94C00F76665 /* Masonry */,
+				0FAFF3712099AD8E00F76665 /* YicePickerMenu */,
 				0FAFF3392099AB1C00F76665 /* AppDelegate.h */,
 				0FAFF33A2099AB1C00F76665 /* AppDelegate.m */,
-				0FAFF33C2099AB1C00F76665 /* ViewController.h */,
-				0FAFF33D2099AB1C00F76665 /* ViewController.m */,
+				0FAFF36E2099AB4900F76665 /* MainViewController.h */,
+				0FAFF36F2099AB4900F76665 /* MainViewController.m */,
 				0FAFF33F2099AB1C00F76665 /* Main.storyboard */,
 				0FAFF3452099AB1C00F76665 /* Assets.xcassets */,
 				0FAFF3472099AB1C00F76665 /* LaunchScreen.storyboard */,
@@ -133,6 +188,57 @@
 				0FAFF3622099AB1D00F76665 /* Info.plist */,
 			);
 			path = YicePickerUITests;
+			sourceTree = "<group>";
+		};
+		0FAFF3712099AD8E00F76665 /* YicePickerMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFF3752099B80800F76665 /* YicePickerMenuPch.h */,
+				0FAFF3762099B80800F76665 /* YicePickerMenuPch.m */,
+				0FAFF3722099ADC700F76665 /* YicePickerMenu.h */,
+				0FAFF3732099ADC700F76665 /* YicePickerMenu.m */,
+				0FAFF3A5209BF7FF00F76665 /* YicePickerCollectionViewFlowLayout.h */,
+				0FAFF3A6209BF7FF00F76665 /* YicePickerCollectionViewFlowLayout.m */,
+				0FAFF3782099C35B00F76665 /* YicePickerCell.h */,
+				0FAFF3792099C35B00F76665 /* YicePickerCell.m */,
+				0FFCDC6B20BEA313006A7AF5 /* YiceTestModel.h */,
+				0FFCDC6C20BEA313006A7AF5 /* YiceTestModel.m */,
+				0FAFF3A2209AEA0600F76665 /* NSString+AdjustSize.h */,
+				0FAFF3A3209AEA0600F76665 /* NSString+AdjustSize.m */,
+			);
+			path = YicePickerMenu;
+			sourceTree = "<group>";
+		};
+		0FAFF37E209AE94C00F76665 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				0FAFF37F209AE94D00F76665 /* MASCompositeConstraint.h */,
+				0FAFF380209AE94D00F76665 /* MASCompositeConstraint.m */,
+				0FAFF381209AE94D00F76665 /* MASConstraint+Private.h */,
+				0FAFF382209AE94D00F76665 /* MASConstraint.h */,
+				0FAFF383209AE94D00F76665 /* MASConstraint.m */,
+				0FAFF384209AE94D00F76665 /* MASConstraintMaker.h */,
+				0FAFF385209AE94D00F76665 /* MASConstraintMaker.m */,
+				0FAFF386209AE94D00F76665 /* MASLayoutConstraint.h */,
+				0FAFF387209AE94D00F76665 /* MASLayoutConstraint.m */,
+				0FAFF388209AE94D00F76665 /* Masonry.h */,
+				0FAFF389209AE94D00F76665 /* MASUtilities.h */,
+				0FAFF38A209AE94D00F76665 /* MASViewAttribute.h */,
+				0FAFF38B209AE94D00F76665 /* MASViewAttribute.m */,
+				0FAFF38C209AE94D00F76665 /* MASViewConstraint.h */,
+				0FAFF38D209AE94D00F76665 /* MASViewConstraint.m */,
+				0FAFF38E209AE94D00F76665 /* NSArray+MASAdditions.h */,
+				0FAFF38F209AE94D00F76665 /* NSArray+MASAdditions.m */,
+				0FAFF390209AE94D00F76665 /* NSArray+MASShorthandAdditions.h */,
+				0FAFF391209AE94D00F76665 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				0FAFF392209AE94D00F76665 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				0FAFF393209AE94D00F76665 /* View+MASAdditions.h */,
+				0FAFF394209AE94D00F76665 /* View+MASAdditions.m */,
+				0FAFF395209AE94D00F76665 /* View+MASShorthandAdditions.h */,
+				0FAFF396209AE94D00F76665 /* ViewController+MASAdditions.h */,
+				0FAFF397209AE94D00F76665 /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,10 +374,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FAFF33E2099AB1C00F76665 /* ViewController.m in Sources */,
+				0FAFF3742099ADC700F76665 /* YicePickerMenu.m in Sources */,
+				0FAFF39E209AE94D00F76665 /* NSArray+MASAdditions.m in Sources */,
+				0FFCDC6D20BEA313006A7AF5 /* YiceTestModel.m in Sources */,
 				0FAFF3442099AB1C00F76665 /* YicePicker.xcdatamodeld in Sources */,
+				0FAFF3772099B80800F76665 /* YicePickerMenuPch.m in Sources */,
+				0FAFF3A0209AE94D00F76665 /* View+MASAdditions.m in Sources */,
+				0FAFF39B209AE94D00F76665 /* MASLayoutConstraint.m in Sources */,
+				0FAFF3A7209BF7FF00F76665 /* YicePickerCollectionViewFlowLayout.m in Sources */,
+				0FAFF399209AE94D00F76665 /* MASConstraint.m in Sources */,
+				0FAFF39F209AE94D00F76665 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				0FAFF398209AE94D00F76665 /* MASCompositeConstraint.m in Sources */,
 				0FAFF34C2099AB1C00F76665 /* main.m in Sources */,
+				0FAFF3A4209AEA0600F76665 /* NSString+AdjustSize.m in Sources */,
 				0FAFF33B2099AB1C00F76665 /* AppDelegate.m in Sources */,
+				0FAFF3702099AB4900F76665 /* MainViewController.m in Sources */,
+				0FAFF39A209AE94D00F76665 /* MASConstraintMaker.m in Sources */,
+				0FAFF3A1209AE94D00F76665 /* ViewController+MASAdditions.m in Sources */,
+				0FAFF39D209AE94D00F76665 /* MASViewConstraint.m in Sources */,
+				0FAFF37A2099C35B00F76665 /* YicePickerCell.m in Sources */,
+				0FAFF39C209AE94D00F76665 /* MASViewAttribute.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
